@@ -10,8 +10,16 @@ function Footer() {
                 <Link href="https://github.com/PedroChinalia" target="blank">
                     <Avatar
                         variant="rounded"
-                        alt="HTML 5"
+                        alt="GitHub"
                         src={require("../assets/imgs/git.png")}
+                        sx={{ width: 50, height: 50, marginRight: 2 }}
+                    />
+                </Link>
+                <Link href="https://www.linkedin.com/in/pedro-chinalia-7a8034205/" target="blank">
+                    <Avatar
+                        variant="rounded"
+                        alt="LinkedIn"
+                        src={require("../assets/imgs/linkedin.png")}
                         sx={{ width: 50, height: 50 }}
                     />
                 </Link>
